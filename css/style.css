@@ -1,0 +1,1117 @@
+body{
+    background-color: black;
+    word-break: break-word;
+}
+
+#link-wpp{
+    padding: 17px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#toWpp{
+    background-color: #1bd741;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+#wpp{
+    width: 70px;
+    border-radius: 50%;
+}
+
+header{
+    background-image: url('../img/bg-header.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#logo-container{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo-preto{
+    width: 380px;   
+}
+
+#aviso-vagas{
+    font-family: 'Teko';
+    font-size: 45px;
+    color: white;
+    line-height: 60px;
+}
+
+#aviso-vagas span{
+    color: gold;
+}
+
+#titulo-principal{
+    font-family: 'Teko';
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#avaliacao{
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin: 20px 0 20px 0;
+}
+
+#stars-rate{
+    margin-top: 10px;
+}
+
+#stars-rate span{
+    font-size: 35px;
+    color: gold;
+}
+
+.button-container{
+    padding: 45px;
+}
+
+.botao{
+    font-family: 'Teko';
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    background-color: green;
+    border: solid 1px white ;
+    outline: 0;
+    width: 380px;
+    height: 70px;
+    border-radius: 100px;
+    transition: 0.3s background-color!important;
+}
+
+.botao:hover{
+    background-color:rgb(3, 182, 3)
+}
+
+.pulse{	max-width: 400px; /*largura maxima */	-webkit-transition: all 0.4s linear;	-moz-transition: all 0.4s linear;	transition: all 0.4s linear;	-webkit-animation: smallToBig 600ms alternate infinite ease;	-moz-animation: smallToBig 600ms alternate infinite ease;   }   @-webkit-keyframes smallToBig{from {-webkit-transform: scale(1);}to {-webkit-transform: scale(1.1);}}   @-moz-keyframes smallToBig{from {-moz-transform: scale(1);}to {-moz-transform: scale(1.1);}}
+
+
+section{
+    min-height: 100vh;
+    height: auto;
+}
+
+.titulo-secundario{
+    font-family: 'Teko';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.text-content{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#how{
+    color: white;
+}
+
+#how .titulo-secundario{
+    color: gold;
+}
+
+#how .text-content{
+    padding-right: 80px;
+}
+
+#content-how{
+    padding: 80px;
+    align-items: center;
+}
+
+#crescimento{
+    width:400px;
+}
+
+#how .button-container{
+    padding: 10px;
+}
+
+#work .titulo-secundario {
+    color: gold;
+}
+
+#work .text-content{
+    padding: 25px;
+    text-align: center; 
+    color: white;
+}
+
+
+#beneficios{
+    background-image: url('../img/bg-ben.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 200vh;
+}
+
+#beneficios .titulo-secundario{
+    color: #130af3;
+
+}
+
+.topics{
+    margin-top: 50px;
+}
+
+.icon-itens{
+    width:80px;
+}
+
+.topics div{
+    width: 300px;
+    height: auto;
+}
+
+.titulo-topic{
+    font-family: 'Teko';
+    color: #130af3;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.topic-text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+    color: #130af3;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+#arte{
+    background-image: url('../img/bg-arte.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#arte .titulo-secundario, #depoimentos .titulo-secundario{
+    color: #3d3dd6;
+    font-size: 60px;
+}
+
+#arte .titulo-secundario{
+    margin-bottom: 20px;
+}
+
+#arte-img{
+    width: 690px;
+}
+
+
+#depoimentos{
+    background-image: url('../img/bg-arte.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#depoimentos-container{ 
+    padding: 15px;
+    width: 96.5vw;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.row-1{
+    margin-top: 15px;
+}
+
+.row img{
+    width: 380px;
+    height: 675px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#caminho{
+    background-color: #505ac2;
+}
+
+#container-caminho{
+    padding: 60px;
+}
+
+.titulo-caminho{
+    font-family: 'Teko';
+    font-size: 55px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caminho img{
+    width: 400px;
+}
+
+.caminho-text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    color: whitesmoke;
+    margin-top: 15px;
+    padding: 0px 20px 0px 20px;
+}
+
+#afiliados{
+    min-height: auto;
+}
+
+#afiliados-container{
+    margin-top: 30px;
+}
+
+#container-keepG{
+    margin: 25px 0 0 0 ;
+}
+
+#keepG{
+    width: 600px;
+}
+
+#container-experiencia{
+    padding: 80px;
+    align-items: center;
+}
+
+#exp-content .text-content{
+    padding-right: 80px;
+    margin-top: 20px;
+}
+
+#exp-content strong{
+    font-weight: bold;
+}
+
+#curso .titulo-secundario, #afiliados .titulo-secundario, #experiencia .titulo-secundario{
+    color: gold;
+}
+
+#experiencia .text-content{
+    color: white;
+}
+
+#curso .center{
+    padding: 15px;
+}
+
+#traco{
+    width: 60%;
+    background-color: white;
+    height: 4px;
+    margin: 20px 0 20px 0;
+}
+
+#container-curso{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-bottom: 40px;
+    min-width:800px;
+    min-height: 80vh;
+    width: auto;
+    height: auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(200,200,200,1) 100%);
+}
+
+#titulo-curso, #preco-vista, #preco-parcelado{
+    font-family: 'Teko';
+    text-align: center;
+}
+
+.primary{
+    font-size: 90px;
+}
+
+#ben-curso, #atualizacoes{
+    padding: 5px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.subtitulos-curso{
+    font-family: 'Teko';
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+#ben-curso .subtitulos-curso, #ben-curso .primary, #ben-curso .item-list, #ben-curso li{
+    color: #00cf00;;
+}
+
+#atualizacoes .subtitulos-curso, #atualizacoes .primary, #atualizacoes .item-list, #atualizacoes li{
+    color: #055cff;
+}
+
+#ben-curso li, #atualizacoes li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+#ben-curso li p, #atualizacoes li p{
+    margin-left: 10px;
+}
+
+
+.item-list{
+    font-size: 50px;
+}
+
+#titulo-curso{
+    font-size: 90px;
+}
+
+#preco-parcelado{
+    font-size: 70px;
+    color: #130af3;
+}
+
+#preco-vista{
+    font-size: 60px;
+    color: #414141;
+}
+
+#botao-agora{
+    font-family: 'Teko';
+    color: white;
+    font-size: 50px;
+    /* font-weight: bold; */
+    background-color: #130af3;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    transition: 0.3s background-color;
+    margin-top: 20px;
+}
+
+#exp-content #botao-agora{
+    font-size: 34px;
+    background-color: unset;
+    transition: 0.5s font-size;
+    border:solid 3px white;
+    transition: 0.5s color, 0.3s background-color;
+}
+
+#exp-content #botao-agora:hover{
+    color: black;
+    background-color: white;
+}
+
+#curso #botao-agora:hover{
+    background-color: #0600c0;
+}
+
+#formas-aceitas{
+    font-family: 'Teko';
+    font-size: 50px;
+    text-align: center;
+    color:#414141;
+    margin-top: 25px;
+}
+
+
+
+#pag-formas{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formas{
+    width: 580px;
+}
+
+#formas div{
+    box-shadow: 0 0 10px rgb(139, 139, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+#formas div p{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.pag-icons{
+    width: 40px;
+}
+#cards{
+    width:630px;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+#cards img{
+    width:70px;
+}
+
+footer{
+    min-height: 90vh;
+    height: auto;
+    background-image: url('../img/bg-footer.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer .center{
+    height: 90vh !important;    
+    flex-direction: column;
+}
+
+#logo-footer{
+    width: 600px;
+}
+
+#copyright{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#politics a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #757575;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+
+
+@media screen and (max-width:1200px){
+    #afiliados-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .video-afiliados{
+        width: 80%!important;
+        height: 70vh!important;
+        margin-bottom: 25px;
+    }
+
+    section{
+        padding-bottom: 130px;
+    }
+    
+}
+
+
+@media screen and (max-width:1120px){
+    #content-how{
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    #content-how .text-content{
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #how .button-container{
+        padding: 5px;
+    }
+
+    #container-experiencia{
+        flex-direction: column;
+    }
+
+    #container-experiencia .text-content, #container-experiencia .titulo-secundario{
+        text-align: center;
+    }
+
+    #container-experiencia .text-content{
+        padding: 0;
+    }
+
+    #selo-garantia{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:980px){
+
+    #container-caminho{
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .caminho{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:920px){
+    .topics{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topics div{
+        margin-bottom: 100px;
+        width: 60vw;
+    }
+
+    .topics div div{
+        margin-bottom: 20px;
+    }
+
+    .topic-text{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:900px){
+    #container-curso{
+        min-width: 80%;
+    }
+
+    /* .row{
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .row div{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+    #container-curso{
+        min-width: 45%;
+    }
+
+    #titulo-curso, #preco-parcelado, #preco-visita, #formas-aceitas, .subtitulos-curso{
+        text-align: center;
+    }
+
+    #titulo-curso{
+        font-size: 70px;
+    }
+
+    #preco-parcelado{
+        font-size:50px;
+    }
+
+    #preco-vista{
+        font-size: 40px;
+    }
+
+    #botao-agora{
+        font-size: 40px;
+    }
+
+    .subtitulos-curso{
+        font-size: 60px;
+    }
+
+    #ben-curso li, #atualizacoes li{
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    #ben-curso, #atualizacoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    #formas-aceitas{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #pag-formas{
+        width: auto;
+    }
+
+    #formas div{
+        width: 160px;
+    }
+
+    .pag-icons{
+        width: 30px;
+    }
+
+    #formas div p{
+        font-size: 20px;
+    }
+
+    #cards{
+        width: auto;
+    }
+
+    #titulo-principal{
+        padding: 5px;
+    }
+
+    #logo-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #logo-preto{
+        margin-top: 30px;
+    }   
+
+    #aviso-vagas{
+        text-align: center;
+    }
+
+    #videovenda{
+        width: 80%!important;
+        height: 70vh!important;
+    }
+
+}
+
+@media screen and (max-width:690px){
+    #container-curso{
+        padding: 20px;
+    }
+
+    #arte-img{
+        width: 480px;
+    }
+
+    #titulo-principal{
+        font-size: 55px;
+    }
+
+    #avaliacao p{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:630px){
+    #container-curso{
+        width: 80%!important;
+    }
+
+    #formas{
+        width: 100%;
+    }
+
+    #formas div{
+        width: 100px;
+    }
+
+    .pag-icons{
+        width:25px;
+    }
+
+    #formas div p{
+        font-size: 16px;
+    }
+
+    #cards{
+        width: 80%;
+    }
+
+    #cards img{
+        width: 55px;
+    }
+
+    #keepG{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:600px){
+    #logo-footer{
+        width: 500px;
+    }
+
+    #container-curso{
+        padding: 15px 0px 15px 0px;
+        word-break: break-word;
+    }
+
+}
+
+
+@media screen and (max-width:500px){
+    #mentores-sub{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo-footer{
+        width:400px;
+    }
+
+    #keepG{
+        width: 360px;
+    }
+
+    .topic-text{
+        font-size: 18px;
+    }
+
+    .titulo-topic{
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .caminho img{
+        width: 300px;
+    }
+
+    #titulo-curso{
+        font-size: 55px;
+    }
+
+    #preco-parcelado{
+        font-size:40px;
+    }
+
+    #preco-vista{
+        font-size: 32px;
+    }
+
+    #botao-agora{
+        font-size: 35px;
+    }
+
+    .subtitulos-curso{
+        font-size: 45px;
+    }
+
+    #ben-curso li, #atualizacoes li{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    #formas-aceitas{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+
+
+    #formas div{
+        box-shadow: none;
+    }
+
+    #arte-img{
+        width: 360px;
+    }
+
+    .row img{
+        width: 260px;
+        height: 462px;
+    }
+
+    #titulo-principal{
+        font-size: 45px;
+    }
+
+    .titulo-secundario{
+        font-size: 37px!important;
+    }
+    
+
+    .text-content{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:440px){
+    #formas{
+        flex-wrap: wrap;
+    }
+
+    .titulo-caminho{
+        font-size: 47px ;
+    }
+
+    .caminho img{
+        width: 220px;
+    }
+
+    .caminho-text{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .botao{
+        width: 260px;
+        font-size: 24px;
+    }
+
+    #logo-footer{
+        width: 340px;
+    }
+
+    #copyright{
+        font-size: 18px;
+    }
+
+    #politics a{
+        font-size: 16px;
+    }
+
+    #crescimento{
+        width: 340px;
+    }
+
+    #selo-garantia img{
+        width: 300px;
+    }
+
+    #exp-content #botao-agora{
+        font-size: 24px;
+    }
+
+    #container-experiencia{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .titulo-secundario{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width:380px){
+    #logo-preto{
+        width: 270px;
+    }
+
+    #arte-img{
+        width: 280px;
+    }
+
+    #keepG{
+        width: 220px;
+    }
+
+    #arte{
+        min-height: 60vh!important;
+        height: auto!important;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:360px){
+    #cards{
+        flex-wrap: wrap;
+    }
+
+    #logo-footer{
+        width: 260px;
+    }
+
+    .titulo-secundario{
+        font-size: 35px!important;
+    }
+}
+
+@media screen and (max-width:340px){
+    #crescimento{
+        width: 280px;
+    }
+
+    #exp-content #botao-agora{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:320px){
+    #selo-garantia img{
+        width: 220px;
+    }
+
+    .topic-text{
+        font-size: 18px;
+    }
+
+    .titulo-topic{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:300px){
+    #arte-img{
+        width: 190px;
+    }
+
+    #botao-agora{
+        font-size: 25px;
+    }
+
+    .subtitulos-curso{
+        font-size: 30px;
+    }
+
+    #ben-curso li, #atualizacoes li{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .item-list{
+        font-size: 35px;
+    }
+
+    .botao{
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .caminho img{
+        width: 220px;
+    }
+
+    #politics a{
+        font-size: 12px;
+    }
+
+    .titulo-caminho{
+        font-size: 38px ;
+    }
+
+    .caminho-text{
+        font-size: 14px;
+    }
+
+    #keepG{
+        width: 220px;
+    }
+
+
+}
+
+@media screen and (max-width:280px){
+
+
+    .titulo-caminho{
+        font-size: 40px;
+    }
+
+    #exp-content #botao-agora{
+        font-size: 14px;
+    }
+
+    #crescimento{
+        width: 190px;
+    }
+
+    .text-content{
+        font-size: 15px;
+    }
+
+    .caminho img{
+        width: 200px;
+    }
+    
+}
+
+.center{
+    padding: 0!important;
+}
+
+
+.attr{
+    font-family: 'Montserrat';
+    color: #757575;
+    padding: 10px;
+    text-align: center;
+}
+
+#toWpp{
+    padding: 5px!important;
+}
+
+.minos{
+    font-size: 17px;
+}
+
+section, header{
+    padding-bottom: 90px;
+}
+
+#arte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
